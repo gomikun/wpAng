@@ -1,0 +1,162 @@
+/*
+Theme Name: wpAng
+Author: Gautier Piatek
+Version : 1.0
+*/
+
+@import 'vars';
+
+audio
+{
+    visibility: hidden !important;
+}
+
+/*FONT*/
+
+#page
+{
+    font-family: $font-principale;
+    color: $coul-back;
+}
+
+/*LINKS*/
+a, a:visited
+{
+    color: $coul-clair;
+    
+    &:hover 
+    {
+        color: $coul;
+        background-color: $coul-back;
+    }
+    
+    
+}
+
+/* NAV */
+nav
+{
+    background-color: $coul;
+    color: $coul-back;
+    margin-bottom: 1%;
+    
+    &> div 
+    {
+        padding: 1%;
+        
+        &:hover
+        {
+            background-color: $coul-back;
+            color: $coul;
+        }
+    }
+    
+    a 
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: $coul-back;
+        text-decoration: none;
+        
+        &:hover
+        {
+            color: $coul;
+        }
+    }
+}
+
+/*PAGE*/
+
+#page
+{
+    width: 75%;
+    margin: 0 auto;
+    
+    header
+    {
+        margin: 0 auto;
+    }
+    
+    #banniere, .player, #assoc
+    {
+        background-color: $coul;
+        
+        .illu
+        {
+            padding: 1%;
+        }
+        
+        .infos
+        {
+            padding: 3%;
+            
+            .controles
+            {
+                #temps
+                {
+                    margin: 3%;
+                }
+            }
+        }
+        
+        .playlist
+        {
+            background-color: $coul-mid;
+            padding: 1%;
+            
+            h2 
+            {
+                text-align: center;
+            }
+            
+            ul li
+            {
+                list-style: none;
+                border-bottom: 1px solid $coul-clair;
+                
+                &:hover
+                {
+                    background-color: $coul-clair;
+                    color: $coul;
+                }
+                
+                .illuPlaylist
+                {
+                    margin: 3%;
+                }
+                
+                h3
+                {
+                    margin-right: 3%;
+                }
+            }
+        }
+    } 
+    
+    #assoc
+    {
+        padding: 3%;
+    }
+    
+    .clic
+    {
+        cursor: pointer;
+    } 
+}
+
+/*FOOTER*/
+
+footer 
+{
+    background-color: $coul;
+    color: $coul-back;
+    text-align: center;
+    padding: 3%;
+
+    a 
+    {
+        color: $coul-back;
+    }
+}
+

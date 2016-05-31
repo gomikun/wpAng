@@ -1,0 +1,102 @@
+/*
+Theme Name: wpAng
+Author: Gautier Piatek
+Version : 1.0
+*/
+/*FONT*/
+/*COULEURS*/
+audio {
+  visibility: hidden !important; }
+
+/*FONT*/
+#page {
+  font-family: "Roboto", sans-serif;
+  color: #FFF; }
+
+/*LINKS*/
+a, a:visited {
+  color: #cccccc; }
+
+a:hover, a:visited:hover {
+  color: #000;
+  background-color: #FFF; }
+
+/* NAV */
+nav {
+  background-color: #000;
+  color: #FFF;
+  margin-bottom: 1%; }
+
+nav > div {
+  padding: 1%; }
+
+nav > div:hover {
+  background-color: #FFF;
+  color: #000; }
+
+nav a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  text-decoration: none; }
+
+nav a:hover {
+  color: #000; }
+
+/*PAGE*/
+#page {
+  width: 75%;
+  margin: 0 auto; }
+
+#page header {
+  margin: 0 auto; }
+
+#page #banniere, #page .player, #page #assoc {
+  background-color: #000; }
+
+#page #banniere .illu, #page .player .illu, #page #assoc .illu {
+  padding: 1%; }
+
+#page #banniere .infos, #page .player .infos, #page #assoc .infos {
+  padding: 3%; }
+
+#page #banniere .infos .controles #temps, #page .player .infos .controles #temps, #page #assoc .infos .controles #temps {
+  margin: 3%; }
+
+#page #banniere .playlist, #page .player .playlist, #page #assoc .playlist {
+  background-color: #141414;
+  padding: 1%; }
+
+#page #banniere .playlist h2, #page .player .playlist h2, #page #assoc .playlist h2 {
+  text-align: center; }
+
+#page #banniere .playlist ul li, #page .player .playlist ul li, #page #assoc .playlist ul li {
+  list-style: none;
+  border-bottom: 1px solid #cccccc; }
+
+#page #banniere .playlist ul li:hover, #page .player .playlist ul li:hover, #page #assoc .playlist ul li:hover {
+  background-color: #cccccc;
+  color: #000; }
+
+#page #banniere .playlist ul li .illuPlaylist, #page .player .playlist ul li .illuPlaylist, #page #assoc .playlist ul li .illuPlaylist {
+  margin: 3%; }
+
+#page #banniere .playlist ul li h3, #page .player .playlist ul li h3, #page #assoc .playlist ul li h3 {
+  margin-right: 3%; }
+
+#page #assoc {
+  padding: 3%; }
+
+#page .clic {
+  cursor: pointer; }
+
+/*FOOTER*/
+footer {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+  padding: 3%; }
+
+footer a {
+  color: #FFF; }

@@ -1,0 +1,21 @@
+{
+  "name": "wpang",
+  "version": "1.0.0",
+  "description": "Wordpress + Angular",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gautier Piatek",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-animate": "^1.5.5",
+    "angular-aria": "^1.5.5",
+    "angular-audio": "^1.7.2",
+    "angular-material": "^1.0.8",
+    "angular-messages": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-sanitize": "^1.5.6"
+  }
+}
