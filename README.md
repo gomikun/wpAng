@@ -1,7 +1,7 @@
 # wpAng
-Thème Angular pour Wordpress.
+Wordpress Angular theme
 
-Le thème prend les fichiers audio mp3 embed dans les posts pour proposer un frontend sous la forme d'un lecteur audio.
+The theme takes mp3 embed audio files in posts to provide a frontend in the form of an audio player.
 
 ## Installation
 
